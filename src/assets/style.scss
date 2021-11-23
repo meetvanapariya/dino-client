@@ -1,0 +1,31 @@
+@import "../../node_modules/@fortawesome/fontawesome-free/css/all.min.css";
+@import "../../node_modules/bulma/css/bulma.min.css";
+
+
+button.button.is-light.mb-3 {
+    width: 40px;
+    height: 40px;
+}
+
+
+.card-content{
+    height: 450px;
+    overflow: hidden;
+}
+
+.dino-card button{
+    text-decoration: none !important;
+    border: transparent !important;
+    cursor: pointer;
+}
+.dino-card button:focus{
+    outline: 0 !important;
+    box-shadow: none !important;
+}
+.dino-card button i{
+    font-size: 1.3rem;
+}
+
+.is-danger{
+    color: red;
+}
