@@ -1,6 +1,6 @@
 import axios from 'axios';
 
-const baseUrl = '/api';
+const baseUrl = 'https://dino-app.herokuapp.com/api';
 const getUrl = url => `${baseUrl}${url}`;
 
 class ApiService{
